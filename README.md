@@ -2,7 +2,7 @@
 01/05/2020
 
 ### Project Title
-Bikeshare Data Insights
+Insights into Bikeshare data
 
 ### Description
 It provides insights into the usage of bikes provided by Bikeshare in Chicago, New York and Washington.
