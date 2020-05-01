@@ -7,7 +7,13 @@ Insights into Bikeshare data
 ### Description
 It provides insights into the usage of bikes provided by Bikeshare in Chicago, New York and Washington.
 It loads data from the selected city csv file.
-Insights provided can be filtered by month, day, both or none.
+
+Statistics provided can be filtered by month, day, both or none.
+
+Examples of statistical data provided:
+-Average travel time
+-Most commonly used start station
+-Most popular route
 
 ### Files used
 bikeshare.py
