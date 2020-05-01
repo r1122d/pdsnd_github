@@ -6,7 +6,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv', 'new york city': 'new_york_city.csv','washington': 'washington.csv' }
 
 #Define lists required in several functions
-months = ['january', 'february', 'march', 'april', 'may', 'june']
+months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
 def welcome():
@@ -45,7 +45,7 @@ def get_filters():
 
     #Get month filter
     if time_filter == 'both' or time_filter == 'month':
-        month = filter_input('Please select a month: January, February, March, April, May, June or All\n', months + ['all'])
+        month = filter_input('Please select a month: January, February, March, April, May, June or All\n', months)
 
     #Get day filter
     if time_filter == 'both' or time_filter == 'day':
