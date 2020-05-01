@@ -1,8 +1,8 @@
 ### Date created
-01/05/2020
+*01/05/2020*
 
 ### Project Title
-Insights into Bikeshare data
+**Insights into Bikeshare data**
 
 ### Description
 It provides insights into the usage of bikes provided by Bikeshare in Chicago, New York and Washington.
@@ -22,5 +22,6 @@ README.md
 csv data files (not comitted)
 
 ### Credits
-Udacity
-stackoverflow on time delta sum: https://stackoverflow.com/questions/37920497/sum-of-timedeltas-column-in-pandas-python
+- [Udacity](https://www.udacity.com/)
+- [stackoverflow on time delta sum](https://stackoverflow.com/questions/37920497/sum-of-timedeltas-column-in-pandas-python)
+- [Markdown quick reference cheat sheet](https://wordpress.com/support/markdown-quick-reference/)
