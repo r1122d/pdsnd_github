@@ -1,15 +1,20 @@
 ### Date created
-Include the date you created this project and README file.
+01/05/2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data Insights
 
 ### Description
-Describe what your project is about and what it does
+It provides insights into the usage of bikes provided by Bikeshare in Chicago, New York and Washington.
+It loads data from the selected city csv file.
+Insights provided can be filtered by month, day, both or none.
 
 ### Files used
-Include the files used
+bikeshare.py
+.gitignore
+README.md
+csv data files (not comitted)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity
+stackoverflow on time delta sum: https://stackoverflow.com/questions/37920497/sum-of-timedeltas-column-in-pandas-python
