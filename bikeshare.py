@@ -203,7 +203,7 @@ def raw_data(df):
         df = df.drop(columns = ['hour','day_of_week','month','comb_st']) #to drop the extra columns created
         response = filter_input('Would you like to see some raw data? yes/no\n', ['yes','no'])
 
-        #Loop to ask the use if he requires any additional raw data
+        #Loop to ask the use if the user requires any additional raw data
         try:
             while True:
                 if response == 'yes':
@@ -213,7 +213,7 @@ def raw_data(df):
                 row += 5
                 response = filter_input('Would you like to see more data? yes/no\n', ['yes','no'])
 
-        #To account for the error arised from reaching the end of df
+        #To account for the error arising from reaching the end of df
         except:
             print('You reached the end of the data')
 
